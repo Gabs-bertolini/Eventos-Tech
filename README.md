@@ -1,2 +1,2 @@
-# Calendario-Interativo
-Um calendário Web onde o mesmo é interativo com o usuario
+# Eventos Tech
+Site desenvolvido com intuito de apresentar eventos de tecnologia que estão acontecendo no momento
