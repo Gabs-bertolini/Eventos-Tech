@@ -23,7 +23,7 @@ body {
     border-radius: 50px;
     box-shadow: 4px 4px 0px #000;
     margin: 0 auto;
-    overflow: hidden; /* ESSENCIAL para conter tudo dentro da borda */
+    overflow: hidden;
 }
 
 .header-container {
@@ -55,16 +55,16 @@ body {
     font-weight: 700;
     color: #000;
     text-transform: uppercase;
-    text-decoration: none; /* Remove o sublinhado */
-    color: black; /* Define a cor do texto como preto */
+    text-decoration: none;
+    color: black;
 }
 
 /* Opcional: estilo para estados do link */
 .site-title:hover, 
 .site-title:active, 
 .site-title:visited {
-    color: black; /* Mantém preto em todos os estados */
-    text-decoration: none; /* Garante que não apareça sublinhado */
+    color: black; 
+    text-decoration: none;
 }
 
 /* BOTÃO */
