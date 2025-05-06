@@ -60,10 +60,10 @@ body {
 }
 
 /* Opcional: estilo para estados do link */
-.site-title:hover, 
-.site-title:active, 
+.site-title:hover,
+.site-title:active,
 .site-title:visited {
-    color: black; 
+    color: black;
     text-decoration: none;
 }
 
@@ -92,16 +92,16 @@ body {
         height: 70px;
         padding: 0 15px;
     }
-    
+
     .logo-img {
         width: 40px;
         height: 40px;
     }
-    
+
     .site-title {
         font-size: 1.4rem;
     }
-    
+
     .nav-button {
         padding: 8px 16px;
         font-size: 0.9rem;
@@ -143,6 +143,16 @@ body {
 
 .event-model {
     background-color: #ffde59;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px #000;
+}
+
+.event-remote {
+    background-color: #72e2f2;
     color: #000;
     font-weight: bold;
     padding: 5px 15px;
@@ -197,7 +207,23 @@ body {
     line-height: 1;
 }
 
-.event-location p,
+.event-location p a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1px; /* Ajusta a espessura da linha */
+}
+
+.event-location p a:hover {
+    /* Opcional: estilo ao passar o mouse */
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.event-location p {
+    line-height: 1.6;
+}
+
 .event-dates p {
     line-height: 1.6;
 }
@@ -208,11 +234,11 @@ body {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .event-title {
         font-size: 1.5rem;
     }
-    
+
     .event-model {
         font-size: 0.9rem;
     }
